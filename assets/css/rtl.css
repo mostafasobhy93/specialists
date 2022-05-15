@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal&display=swap');
+
+*:not(i) {
+    font-family: 'Tajawal', sans-serif ;
+}
+html, body {
+	direction: rtl;
+	text-align: right;
+}
+.section-title {
+    text-align: right;
+}
+.title-part:before {
+	right: 0;
+	left: auto;
+}
+.dropdown .droplist {
+	right: 0;
+	left: auto;
+}
+header nav .links-list > ul .list-item .link:before {
+	right: 0;
+	left: auto;
+}
+header nav .links-list > ul .list-item.dropdown .link i,
+header nav .links-list > ul .list-item.dropdown .droplist .sub-link i {
+	margin-right: 3px;
+	margin-left: 0;
+}
+header nav .links-list > ul .list-item .droplist > li .sub-menu {
+    right: 100%;
+	left: auto;
+	-webkit-transform: translateX(-30px);
+    -ms-transform: translateX(-30px);
+    transform: translateX(-30px);
+}
+header nav .links-list > ul .list-item.dropdown:hover .link > i {
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+header.sticky {
+	right: 0;
+	left: auto;
+}
+.main-slider .carousel-btn-block .carousel-btn.left-btn {
+	right: 30px;
+	left: auto;
+}
+.main-slider .main-banner-wrapper {
+	overflow-x: hidden;
+}
+.contact-section .main-form {
+	padding-right: 30px;
+	padding-left: 0;
+}
+footer .footer-bottom .footer-social .social-list li {
+    margin-right: 20px;
+	margin-left: 0;
+}
+.page-details-area .course-details-slider .owl-theme .owl-nav .owl-prev {
+    right: 0;
+	left: auto;
+}
+.top-bar .nav li {
+    border-left: 1px solid #999;
+	border-right: 0;
+}
+.top-bar .nav li:last-child {
+	border-left: 0;
+}
+header nav .links-list > ul .list-item {
+	margin-left: 30px;
+	margin-right: 0;
+}
+header nav .links-list > ul .list-item:last-child {
+    margin-left: 0;
+}
+.main-slider .carousel-btn-block .carousel-btn.right-btn {
+	left: 30px;
+	right: auto;
+}
+.main-slider .owl-theme .owl-dots {
+	left: -20%;
+	right: auto;
+}
+.main-slider .main-banner-wrapper:hover .owl-theme .owl-dots {
+	left: 15px;
+	right: auto;
+}
+.courses-section .course-card .card-img .card-label {
+	left: 15px;
+	right: auto;
+}
+.gallery-section .button-group button {
+	margin-left: 12px;
+	margin-right: 0;
+}
+.gallery-section .button-group button:last-child {
+	margin-left: 0;
+}
+.page-details-area .course-details-slider .owl-theme .owl-nav .owl-next {
+    left: 0;
+	right: auto;
+}
+
+
+#scroll-top {
+	left: 17px;
+	right: auto;
+}
+.fa-arrow-left:before {
+    content: "\f061";
+}
+.fa-arrow-right:before {
+    content: "\f060";
+}
+.fa-chevron-right:before {
+    content: "\f053";
+}
+.fa-chevron-left:before {
+    content: "\f054";
+}
+.fa-chevron-circle-right:before {
+    content: "\f137";
+}
+.fa-chevron-circle-left:before {
+    content: "\f138";
+}
+.text-left {
+    text-align: right!important;
+}
+.text-right {
+    text-align: left!important;
+}
+.owl-carousel .owl-stage-outer {
+	direction: ltr;
+}
+
+@media(min-width: 992px) {
+	.careers-section .career-card .card-body {
+		padding-right: 35px;
+		padding-left: 0;
+	}
+}
+
+@media(max-width: 991px) {
+	header nav .links-list {
+		right: 0;
+		left: auto;
+	}
+	header nav .links-list {
+		right: 0;
+		left: auto;
+	}
+	header nav .links-list > ul .list-item .droplist > li .sub-menu {
+		right: 0;
+		left: auto;
+	}
+	header nav .lang-btn {
+		margin-right: auto;
+		margin-left: 15px;
+	}
+	.contact-section .main-form {
+		padding-right: 0;
+	}
+}
+
+@media(max-width: 767px) {
+	.main-slider .owl-theme .owl-dots {
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
+	}
+	.main-slider .main-banner-wrapper:hover .owl-theme .owl-dots {
+		left: 50%;
+		right: auto;
+	}
+}
